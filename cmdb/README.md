@@ -212,6 +212,3 @@ For issues with:
 - **ServiceNow Configuration**: Consult ServiceNow documentation or your ServiceNow admin
 - **Integration Script**: Review the code in `script.js` and system logs
 
-## License
-
-Please refer to your organization's licensing terms for this integration code.
