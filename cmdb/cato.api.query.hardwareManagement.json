@@ -1,0 +1,7 @@
+{
+    "query": "query hardwareManagement ( $accountId:ID! ) { hardwareManagement ( accountId:$accountId ) { socketInventory { items { id status serialNumber socketMac socketVersion site { id name } account { id name } shippingDate socketType trackingUrl trackingNumber shippingCompany deliverySiteName description isPrimary registrationStatus availableUpgradeVersions upgradeStatus upgradesPaused } pageInfo { total } } } }",
+    "variables": {
+        "accountId": "YOUR_ACCOUNT_ID_HERE"
+    },
+    "operationName": "hardwareManagement"
+}
