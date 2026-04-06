@@ -9,6 +9,8 @@ The Cato Networks ServiceNow Integrations package consists of scripts and config
 ## Available Integrations
 
 1. [CMDB Hardware Synchronization](./cmdb) - Automatically sync Cato Socket hardware inventory into ServiceNow's Configuration Management Database (CMDB) as SD-WAN Edge devices
+2. [XDR Story to Multi-Ticket Integration](./ticketing_system_integration.md) - Configure Cato XDR response policies, webhooks, and subscriptions to automate ticket creation and updates in ServiceNow and Zendesk
+3. [ServiceNow to XDR Story Integration](./service_now_integration_with_cma.md) - Enable bi-directional comment synchronization between ServiceNow Incidents and Cato Stories via the XDR GraphQL API
 
 Refer to the individual integration README files for detailed setup instructions, configuration options, and troubleshooting guidance.
 
